@@ -1,0 +1,64 @@
+* { 
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Spectral', serif;
+  text-align: center;
+ 
+  background: url(https://i.ibb.co/JnHQYcf/Healthy-Eating-1200x-jpg.webp) no-repeat center/cover;
+  height: 100vh;
+
+  color: #EBF1FB;
+
+  display: grid;
+  gap: 12px;
+  place-content: start;
+  align-content: center;
+}
+
+.row {
+  width: 100%;
+  margin-left: 1rem;
+}
+
+h1 { 
+  font-family: 'Beth Ellen', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 120px;
+}
+
+h1 span {
+  color: #ed6526;
+}
+
+P {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 72px; 
+}
+
+a {
+  color: #EBF1FB;
+  padding: 16px 32px;
+  font-weight: 600; 
+  font-size: 24px;
+  line-height: 24px;
+}
+
+a:hover,
+.btn-primary {
+  background: #ed6526;
+  border-radius: 8px;
+  color: #0B0C0E;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #e98252;
+}
